@@ -13,10 +13,10 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   array.join(" ")
-  if array.size >= 4
-    return true
-  else
+  if array.size <= 4
     return false
+  else
+    return true
   end
 end
 
