@@ -1,9 +1,7 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  arr = []
-  num = 0
   array.each_with_index do |val, idx|
-    puts arr << "#{idx} #{val}"
+    puts "#{idx} #{val}"
     num += 1
   end
 end
