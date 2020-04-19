@@ -1,10 +1,11 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   arr = []
+  num = 0
   array.collect do |i|
-    arr << "#{i}"
+    puts arr << "#{num}#{i}"
+    num += 1
   end
-  puts arr
 end
 
 def summon_captain_planet# code an argument here
