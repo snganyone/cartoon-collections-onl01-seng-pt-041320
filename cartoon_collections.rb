@@ -12,8 +12,8 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.join(" ")
-  if array.size <= 4
+  array.split(" ")
+  if array.lengt <= 4
     return false
   else
     return true
